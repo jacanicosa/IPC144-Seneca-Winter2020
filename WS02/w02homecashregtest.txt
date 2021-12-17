@@ -1,0 +1,47 @@
+#include <stdio.h>
+int main(void)
+{
+	const double quarters = 0.25, dimes = 0.10, nickels = 0.05, pennies = 0.01;
+	double amount, bal, diff, tax, amttax;
+	int loonies, looniestax, cents;
+
+
+	printf("Please enter amount to be paid:$");
+	scanf("%lf", &amount);
+	loonies = (int)amount;
+	tax = amount * 0.13 + 0.005;
+
+
+	printf("GST: %.2lf\n", tax);
+	amttax = amount + tax;
+	printf("Balance owing: $%.2lf\n", amttax);
+	looniestax = (int)amttax;
+
+	printf("Loonies required: %i, ", looniestax);
+	bal = amttax - looniestax;
+	printf("balance owing $%.2lf\n", bal);
+	
+	cents = bal / quarters;
+	printf("Quarters required: %i, ", cents);
+	diff = bal - (double)cents * quarters;
+	printf("balance owing $%.2lf\n", diff);
+
+	cents = diff / dimes;
+	printf("Dimes required: %i, ", cents);
+	diff = diff - (double)cents * dimes;
+	printf("balance owing: $%.2lf\n", diff);
+
+	cents = diff / nickels;
+	printf("Nickels required: %i, ", cents);
+	diff = diff - (double)cents * nickels;
+	printf("balance owing $%.2lf\n", diff);
+
+	cents = diff / pennies;
+	printf("Pennies required: %i, ", cents);
+	diff = diff - (double)cents * pennies;
+	printf("balance owing $%.2lf\n", diff);
+	
+	return 0;
+
+
+}

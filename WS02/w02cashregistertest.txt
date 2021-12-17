@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main(void)
+{
+	const float quarters = 0.25;
+	double amount, diff;
+	int loonies, cents;
+
+
+		printf("Please enter amount to be paid:$");
+		scanf("%i", &loonies);
+		scanf("%lf", &amount);
+		
+		printf("Loonies required: %i, ", loonies);
+		printf("Balance owing: $%.2lf\n", amount);
+		cents = amount / quarters;
+		printf("Quarters required: %i, ", cents);
+		diff = amount - cents * quarters;
+		printf("Balance owing: $%.2lf\n", diff);
+		
+		
+		
+		
+		
+	
+		
+		return 0;
+
+
+}

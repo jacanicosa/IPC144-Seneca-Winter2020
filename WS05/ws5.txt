@@ -1,0 +1,37 @@
+
+			printf("Adding Employee\n");
+			printf("===============\n");
+
+			if (i < SIZE)
+			{
+				printf("Enter Employee ID: ");
+				scanf("%d", &Employee[i].ID_Number);
+				if (Employee[i].ID_Number < 0) {
+					printf("Invalid Employee ID. Try again: ");
+					scanf("%d", &Employee[i].ID_Number);
+				}
+
+				printf("Enter Employee Age: ");
+				scanf("%d", &Employee[i].age);
+				if (Employee[i].age < 14) {
+
+					printf("Invalid age. Try again: ");
+					scanf("%d", &Employee[i].age);
+				}
+
+				printf("Enter Employee Salary: ");
+				scanf("%lf", &Employee[i].salary);
+				if (Employee[i].salary < 0) {
+
+					printf("Invalid salary. Try again: ");
+					scanf("%lf", &Employee[i].salary);
+				}
+				printf("\n");
+				i++;
+			}
+			else {
+				printf("ERROR!!! Maximum Number of Employees Reached\n");
+				printf("\n");
+			}
+			
+			break;

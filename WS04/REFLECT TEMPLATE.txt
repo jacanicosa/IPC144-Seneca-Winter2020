@@ -1,0 +1,32 @@
+//==============================================
+// Name:           Albert Joshua Canicosa
+// Student Number: 144404191
+// Email:          ajcanicosa@myseneca.ca
+// Section:        NKK
+// Workshop:       4 (at-home)
+//==============================================
+
+In this week’s workshop, I learned more about loops, because like last week’s workshop we also used 
+loops for workshop 4. The difference is we added arrays in this week’s 
+workshop but the way we do the coding is still the same. 
+Workshop 4 taught me how arrays work in a program, what their uses are, and I also
+ learned the best use on an array in a program. 
+The good thing about using arrays is that you don’t have to manually input the data that you need, you 
+can simply declare the data needed in the program, which makes coding so much faster. 
+	
+Parallel arrays make the stored data easier to view because they are arranged in tabular form. 
+In workshop 4, you can easily see the high and low temperatures because they use parallel arrays. 
+The only downside that I can see in using parallel arrays is that you have to make sure that the 
+spacing for each data is correct because if you fail to fix the spacing, 
+the data will be jumbled, which is very confusing. After fixing that tricky part, you’re all good.
+I think starting with the number zero (0) is useful because you will never really 
+know the output that you will get in loops. 
+If you put a number other than zero in your code, it might mess up the code and you might end
+ up getting an error. So I think that we should always use zero to avoid confusion.
+
+In the end, I must say that I learned a lot in this workshop. Its really fun when you 
+can apply the things that you learn in lectures, 
+especially when it’s the part of the lecture that you didn’t understand that much. 
+In doing this workshop, I reviewed the things I learned last week in the lectures, 
+and that helped me a lot.
+

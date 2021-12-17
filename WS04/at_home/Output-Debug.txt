@@ -1,0 +1,18 @@
+﻿'at_home.exe' (Win32): Loaded 'C:\Users\Albert\Desktop\IPC144\WS04\at_home\Debug\at_home.exe'. Symbols loaded.
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0x3624 has exited with code 0 (0x0).
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'at_home.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+The thread 0x69e0 has exited with code 0 (0x0).
+The thread 0x357c has exited with code 0 (0x0).
+The thread 0x5e08 has exited with code 0 (0x0).
+The program '[25032] at_home.exe' has exited with code 0 (0x0).

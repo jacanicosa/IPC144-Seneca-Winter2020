@@ -1,0 +1,65 @@
+//==============================================
+// Name:           Albert Joshua Canicosa
+// Student Number: 144404191
+// Email:          ajcanicosa@myseneca.ca
+// Section:        NKK
+// Workshop:       2 (at-home)
+//==============================================
+
+#define _CRT_SECURE_NO_WARNINGS
+
+// Paste your in-lab code below and upgrade it to the at-home specifications
+#include <stdio.h>
+int main(void)
+{
+
+	double amount, bal, diff, tax, amt;
+	int loonies, cents, quarters, dimes, nickels, pennies;
+
+
+	printf("Please enter the amount to be paid: $");
+	scanf("%lf", &amount);
+	tax = amount * 0.13 + 0.005;
+
+
+	printf("GST: %.2lf\n", tax);
+	amt = amount + tax;
+	printf("Balance owing: $%.2lf\n", amt);
+
+	cents = amt * 100;
+	loonies = cents / 100;
+	printf("Loonies required: %d,", loonies);
+	bal = amt - loonies;
+	printf("balance owing $%.2lf\n", bal);
+
+	cents = cents - loonies * 100;
+	quarters = cents / 25;
+	printf("Quarters required: %d,", quarters);
+	bal = cents % 25;
+	bal = (float)bal / 100;
+	printf("balance owing $%.2lf\n", bal);
+	
+	dimes = (int)bal % 10;
+	printf("Dimes required %d,", dimes);
+	bal = bal - dimes*.10;
+	printf("balance owing $%.2lf\n", bal);
+
+	
+	nickels = (int)bal%5;
+	printf("Nickels required %d,", nickels);
+	bal =bal - nickels*.05;
+	printf("balance owing $%.2lf\n", bal);
+	
+	
+	pennies = (int)bal %1;
+	printf("Pennies required %d,", pennies);
+	bal = bal - pennies * .01;
+	printf("balance owing $%.2lf\n", bal);
+
+
+	
+
+
+	
+
+}

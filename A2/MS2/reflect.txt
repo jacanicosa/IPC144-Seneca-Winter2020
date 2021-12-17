@@ -1,0 +1,11 @@
+ALbert Joshua Canicosa
+IPC144-NKK
+
+In this milestone we learned more about functions and their different uses. 
+It is connected to the 2nd milestone in assignment 2, 
+but in this milestone, we improved the ‘helper’ functions we used in the previous milestones.
+Functions are known as building blocks of a program. It contains the set of programming statements enclosed by curly brackets {}. A function can be called multiple times to provide reusability and modularity to the C program. In other words, we can say that the collection of functions creates a program. The function is also known as procedure or subroutine in other programming languages. There are 2 types of functions, these are user defined functions and library functions. 
+I think the functions findContactIndex and getTenDigitPhone benefit my source code with respect to overall maintenance and readability because stores the data needed for both functions and it is more helpful to those who are going to check the code and/or make changes to it because the title of the function is self explanatory when it comes to its use.
+No, I would prefer that the code would be as it is in this milestone. I prefer the one we did and not to include the functionality to load/save the contact information from/to a text data file because the code would be longer and would be prone to warnings and errors, which would pose a great challenge to first time programmers like me.
+I have learned a lot in this course, though some I haven’t fully grasped yet but I think I have improved from what I know now about computer programming, to what I know before, which is zero to none. Thank you Sir for this experience and I hope to learn more from you in the future,
+

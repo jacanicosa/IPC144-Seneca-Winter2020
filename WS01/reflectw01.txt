@@ -1,0 +1,3 @@
+in todays's workshop, I learned how to put in the code needed to run the workshop.
+I also learned how to transfer the files from my desktop to the system using PuTTY and
+WinSCP. I also learned how the in lab workshop differs from the at home workshop.
